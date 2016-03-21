@@ -1,5 +1,7 @@
 # ds-play24-scala
 
+![CodeshipStatus](https://www.codeship.io/projects/990ec360-d171-0133-39c4-66c9b913d1be/status)
+
 ## Description
 Scala 언어를 사용한 Fullstack play project.
 
@@ -12,8 +14,5 @@ Scala 언어를 사용한 Fullstack play project.
 * project-server 테스트 환경 (scalatestplus)
 * project-client 테스트 환경 (utest)
 * Webjar
-* Heroku deploy
+* Codeship을 이용한 Heroku deploy
 * ...
-
-## Testing codeship deploy...
-![CodeshipStatus](https://www.codeship.io/projects/990ec360-d171-0133-39c4-66c9b913d1be/status)
