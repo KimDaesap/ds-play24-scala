@@ -12,7 +12,7 @@ Scala 언어를 사용한 Fullstack play project.
 * Scala.js
 * fingerprint: sbt-digest, sbt-gzip plugins
 * Webjar
-* scalatags, scalacss, scalajs-jquery
+* scalatags, scalacss, scala-js-dom, scala-js-jquery
 * project-server 테스트 환경 (scalatestplus)
 * project-client 테스트 환경 (utest)
 
