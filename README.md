@@ -9,8 +9,8 @@ Scala 언어를 사용한 Fullstack play project.
 * Digest(etag), Gzip 파이프라인 설정
 * ReactivaMongo
 * Scala.js
-* project-server 테스트 환경
-* project-client 테스트 환경
+* project-server 테스트 환경 (scalatestplus)
+* project-client 테스트 환경 (utest)
 * Webjar
 * Heroku deploy
 * ...
