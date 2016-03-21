@@ -11,7 +11,7 @@ Scala 언어를 사용한 Fullstack play project.
 * ReactivaMongo
 * Scala.js
 * fingerprint: sbt-digest, sbt-gzip plugins
-* Webjar
+* Webjar: jquery, bootstrap
 * scalatags, scalacss, scala-js-dom, scala-js-jquery
 * project-server test (scalatestplus)
 * project-client test (utest)
