@@ -15,5 +15,5 @@ Scala 언어를 사용한 Fullstack play project.
 * scalatags, scalacss, scala-js-dom, scala-js-jquery
 * project-server test (scalatestplus)
 * project-client test (utest)
-* Codeship: github -> Heroku deploy
+* Codeship: github -> heroku deploy
 * ...
