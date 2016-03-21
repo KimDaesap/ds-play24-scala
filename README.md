@@ -1,6 +1,6 @@
 # ds-play24-scala
 
-## 설명
+## Description
 Scala 언어를 사용한 Fullstack play project.
 
 [![Deploy on Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
