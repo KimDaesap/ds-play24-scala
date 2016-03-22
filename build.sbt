@@ -10,11 +10,13 @@ lazy val shared = (crossProject.crossType(CrossType.Pure) in file("project-share
 		.settings(
 			name := "ds-play24-scala",
 			version := "0.1-SNAPSHOT",
+			homepage := Some(url("https://github.com/KimDaesap/ds-play24-scala")),
 			scalaVersion := scalaV,
 			resolvers += "scalaz-bintray" at "http://dl.bintray.com/scalaz/releases",
 			libraryDependencies ++= Seq(
 				"com.lihaoyi" %%% "scalatags" % "0.5.4",
 				"be.doeraene" %% "scalajs-jquery_sjs0.6" % "0.9.0",
+				"com.greencatsoft" %% "scalajs-angular_sjs0.6" % "0.6",
 				"com.github.japgolly.scalacss" %%% "core" % "0.4.0"))
 
 lazy val server = (project in file("project-server"))
@@ -32,11 +34,11 @@ lazy val server = (project in file("project-server"))
 				"org.scalatestplus" %%% "play" % "1.4.0" % Test,
 				"org.webjars" %%% "webjars-play" % "2.4.0",
 				"com.vmunier" %%% "play-scalajs-scripts" % "0.4.0",
-				"org.reactivemongo" %%% "play2-reactivemongo" % "0.11.10"),
-			libraryDependencies ++= Seq(
+				"org.reactivemongo" %%% "play2-reactivemongo" % "0.11.10",
+				//--- Webjar dependencies.
 				"org.webjars" % "jquery" % "2.2.1",
-				"org.webjars" % "bootstrap" % "3.3.6" exclude("org.webjars", "jquery")),
-			libraryDependencies <+= scalaVersion("org.scala-lang" % "scala-compiler" % _))
+				"org.webjars" % "bootstrap" % "3.3.6" exclude("org.webjars", "jquery"),
+				"org.webjars.bower" % "angularjs" % "1.5.1"))
 
 lazy val client = (project in file("project-client"))
 		.enablePlugins(ScalaJSPlugin, ScalaJSPlay)

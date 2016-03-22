@@ -12,7 +12,7 @@ Scala 언어를 사용한 Fullstack play project.
 * Scala.js
 * fingerprint: sbt-digest, sbt-gzip plugins
 * Webjar
-* scalatags, scalacss, scala-js-dom, scala-js-jquery
+* scalatags, scalacss, scala-js-jquery
 * project-server test (scalatestplus)
 * project-client test (utest)
 * Codeship: github -> Heroku deploy
