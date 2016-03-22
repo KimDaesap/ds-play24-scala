@@ -1,6 +1,6 @@
 # ds-play24-scala
 
-![CodeshipStatus](https://www.codeship.io/projects/990ec360-d171-0133-39c4-66c9b913d1be/status)
+[![CodeshipStatus](https://www.codeship.io/projects/990ec360-d171-0133-39c4-66c9b913d1be/status)](https://codeship.com/projects/141518)
 
 ## Description
 Scala 언어를 사용한 Fullstack play project.
