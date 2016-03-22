@@ -10,7 +10,6 @@ object JsApplication extends JSApp {
 		jQuery("body").append("<p>Hello World!</p>")
 		jQuery("body").append(s"<p>${SharedMessages.itWorks}")
 
-
 	}
 
 }

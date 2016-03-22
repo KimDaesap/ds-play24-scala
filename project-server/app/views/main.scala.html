@@ -6,20 +6,12 @@
     <head>
         <title>@title</title>
         <link rel="shortcut icon" href="@routes.Assets.versioned("images/favicon.png")">
+        <script data-main="@routes.Assets.versioned("javascripts/main.js")" src="@routes.Assets.versioned("lib/requirejs/require.js")"></script>
         <link rel="stylesheet" type="text/css" href="@routes.Assets.versioned("lib/bootstrap/css/bootstrap.css")" />
         <link rel="stylesheet" type="text/css" href="@routes.Assets.versioned("stylesheets/main.css")" />
-        <script type="text/javascript" src="@routes.Assets.versioned("lib/jquery/jquery.min.js")"></script>
-        <script type="text/javascript" src="@routes.Assets.versioned("lib/bootstrap/js/bootstrap.min.js")"></script>
-        <script type="text/javascript" src="@routes.Assets.versioned("lib/angularjs/angular.min.js")"></script>
-        @* load client's dependencies *@
-        @playscalajs.html.jsdeps("client", (fileName) => routes.Assets.versioned(fileName).toString)
-        @* load client's javascripts: dev -> [file]-fastopt.js, prod -> [file]-opt.js *@
-        @playscalajs.html.selectScript("client", (fileName) => routes.Assets.versioned(fileName).toString)
     </head>
     <body>
         @nav()
-        @* run client's launcher script: client-launcher.js *@
-        @playscalajs.html.launcher("client")
         @content
     </body>
 </html>
