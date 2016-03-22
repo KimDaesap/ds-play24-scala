@@ -8,12 +8,12 @@ Scala 언어를 사용한 Fullstack play project.
 [![Deploy on Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ## Work in progress...
-* ReactivaMongo
+* ReactiveMongo
 * Scala.js
-* fingerprint: sbt-digest, sbt-gzip plugins
-* Webjar
+* sbt-digest, sbt-gzip plugins
+* Webjar: jquery, bootstrap
 * scalatags, scalacss, scala-js-jquery
 * project-server test (scalatestplus)
 * project-client test (utest)
-* Codeship: github -> Heroku deploy
+* Codeship: github -> heroku deploy
 * ...
