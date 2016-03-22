@@ -36,6 +36,7 @@ lazy val server = (project in file("project-server"))
       "org.webjars" %%% "webjars-play" % "2.4.0",
       "org.reactivemongo" %%% "play2-reactivemongo" % "0.11.10",
       //--- Webjar dependencies.
+      "org.webjars" % "requirejs" % "2.2.0",
       "org.webjars" % "jquery" % "2.2.1",
       "org.webjars" % "bootstrap" % "3.3.6" exclude("org.webjars", "jquery"),
       "org.webjars.bower" % "angularjs" % "1.5.1"))
