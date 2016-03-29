@@ -17,3 +17,5 @@ Scala 언어를 사용한 Fullstack play project.
 * project-client test (utest)
 * Codeship: github -> heroku deploy
 * ...
+
+test~
